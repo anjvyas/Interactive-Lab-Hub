@@ -58,13 +58,13 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 ## Part A. Plan 
 
 ### Storyboards and Scenarios
-![The Miss You Machine](https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/miss_you_machine.jpg)
-![Hydratinator](https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/hydratinator.jpg)
-![Weather Buddy](https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/weather_buddy.jpg)
-![Lecture](https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/lecture.jpg)
-![Spooky Lights](https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/spooky.jpg)
-![Night Light With Sound](https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/night_light.jpg)
-![Book Light](https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/book_light.jpg)
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/miss_you_machine.jpg" width=50% height=50%>
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/hydratinator.jpg" width=50% height=50%>
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/weather_buddy.jpg" width=50% height=50%>
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/lecture.jpg" width=50% height=50%>
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/spooky.jpg" width=50% height=50%>
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/night_light.jpg" width=50% height=50%>
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/book_light.jpg" width=50% height=50%>
 
 ### Feedback
 As I faced some technical issues during the lab, I wasn't able to get feedback on my storyboards from my group. However, I did show them to my friends and they suggested:
