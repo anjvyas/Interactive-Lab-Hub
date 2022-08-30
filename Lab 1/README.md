@@ -58,19 +58,33 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 ## Part A. Plan 
 
 ### Storyboards and Scenarios
+
 #### The Miss You Machine
+I'm an international student from India and I often miss my family and friends back home. Sometimes when my parents call, I am distracted with work and I don't pick up. Sometimes, when I call them, they are at work. With the miss you machine, loved ones can just send positive thoughts through a click and they would show up as pink glowing on the device. This helps remind them that you are thinking of them even though it may be difficult to find times to talk on a call :)  
 <img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/miss_you_machine.jpg" width=70% height=70%>
+
 #### Hydratinator
+When I am in my zone while studying or working, I often forget to drink water for hours. Then my head starts hurting and it takes me a while to realize that I just need to drink water. The hydratinator aims to solve this by glowing blue periodically to remind the user to stay hydrated!
 <img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/hydratinator.jpg" width=70% height=70%>
+
 #### Weather Buddy
+A lot of times when I leave home in a rush, I forget to check the weather and don't grab my umbrella. Sometimes I end up feeling cold because I underestimate how chilly it is going to be. Even though it is easy to swipe left and check the weather app or ask Google/Siri, I forget to do it. I would appreciate a visual reminder that I can see right in front of me as I am leaving my home or getting ready. This is why I believe 'weather buddy' would be useful - it can make sounds and change colors based on the weather!
 <img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/weather_buddy.jpg" width=70% height=70%>
+
 #### A simple way to grab a prof's attention from the back of a big classroom
+I have often sat in classrooms that are very big and I can imagine it being difficult for professors to see people raising their hands. This light device might be a good solution for this issue. Different colors can also be used to signify different things.
 <img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/lecture.jpg" width=70% height=70%>
+
 #### A spooky interactive halloween decoration
+I love halloween and thought of making a spooky ghost decoration that can be placed in a pitch dark room. When someone enters, the lights can turn on and make a spooky sound!
 <img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/spooky.jpg" width=70% height=70%>
+
 #### A night light + sleep sounds player
+Sometimes sounds of the city can make it difficult to sleep so a white noise machine or peaceful sound player can help a lot.
 <img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/night_light.jpg" width=70% height=70%>
+
 #### A book light that can play ambient sounds
+To emulate the feeling of curling up by a bonfire, or sitting in a park or any kind of nature related setting while sitting right at home and reading a book. The lights can also be changed to make reading feel even more magical :)
 <img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/book_light.jpg" width=70% height=70%>
 
 ### Feedback
