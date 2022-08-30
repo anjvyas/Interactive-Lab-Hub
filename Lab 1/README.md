@@ -105,7 +105,7 @@ Think about the setting of the device: is the environment a place where the devi
 
 
 ## Part F. Record
-[![Watch the video]](https://youtu.be/3Q6mQROwuEc)
+![Watch the video](https://youtu.be/3Q6mQROwuEc)
 
 
 
