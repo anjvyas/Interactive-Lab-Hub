@@ -84,13 +84,8 @@ If you run into technical issues with this tool, you can also use a light switch
 
 
 ## Part D. Wizard the device
-Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
-
-\*\***Include your first attempts at recording the set-up video here.**\*\*
-
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
-
-\*\***Show the follow-up work here.**\*\*
+I did not face any trouble wizarding the device and setting everything up. I made use of some tape, colored paper and markers for this. 
+[![Setup Video](https://img.youtube.com/vi/2eptFcXcbFk/0.jpg)](https://youtu.be/2eptFcXcbFk)
 
 
 ## Part E. Costume the device
@@ -105,9 +100,7 @@ Think about the setting of the device: is the environment a place where the devi
 
 
 ## Part F. Record
-![Watch the video](https://youtu.be/3Q6mQROwuEc)
-
-
+[![Staging Interactions Video](https://img.youtube.com/vi/3Q6mQROwuEc/0.jpg)](https://youtu.be/3Q6mQROwuEc)
 
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
