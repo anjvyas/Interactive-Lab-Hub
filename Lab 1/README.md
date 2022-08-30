@@ -57,9 +57,20 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. Plan 
 
-### Storyboards
+### Storyboards and Scenarios
+![The Miss You Machine](https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/miss_you_machine.jpg)
+![Hydratinator](https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/hydratinator.jpg)
+![Weather Buddy](https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/weather_buddy.jpg)
+![Lecture](https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/lecture.jpg)
+![Spooky Lights](https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/spooky.jpg)
+![Night Light With Sound](https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/night_light.jpg)
+![Book Light](https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/book_light.jpg)
 
-
+### Feedback
+As I faced some technical issues during the lab, I wasn't able to get feedback on my storyboards from my group. However, I did show them to my friends and they suggested:
+- The lights could potentially be distracting for professors as they try to teach.
+- It would be helpful to make the hydratinator and miss you machine more portable somehow (maybe they could take up the form of wearables of some kind or smaller devices that can latch onto a laptop itself).
+- The light brightness/intensity should be adjustable, especially for the night light.
 
 ## Part B. Act out the Interaction
 
