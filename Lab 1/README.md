@@ -58,13 +58,20 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 ## Part A. Plan 
 
 ### Storyboards and Scenarios
-<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/miss_you_machine.jpg" width=50% height=50%>
-<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/hydratinator.jpg" width=50% height=50%>
-<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/weather_buddy.jpg" width=50% height=50%>
-<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/lecture.jpg" width=50% height=50%>
-<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/spooky.jpg" width=50% height=50%>
-<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/night_light.jpg" width=50% height=50%>
-<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/book_light.jpg" width=50% height=50%>
+#### The Miss You Machine
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/miss_you_machine.jpg" width=70% height=70%>
+#### Hydratinator
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/hydratinator.jpg" width=70% height=70%>
+#### Weather Buddy
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/weather_buddy.jpg" width=70% height=70%>
+#### A simple way to grab a prof's attention from the back of a big classroom
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/lecture.jpg" width=70% height=70%>
+#### A spooky interactive halloween decoration
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/spooky.jpg" width=70% height=70%>
+#### A night light + sleep sounds player
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/night_light.jpg" width=70% height=70%>
+#### A book light that can play ambient sounds
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/book_light.jpg" width=70% height=70%>
 
 ### Feedback
 As I faced some technical issues during the lab, I wasn't able to get feedback on my storyboards from my group. However, I did show them to my friends and they suggested:
@@ -74,25 +81,12 @@ As I faced some technical issues during the lab, I wasn't able to get feedback o
 
 ## Part B. Act out the Interaction
 
-Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
-
-\*\***Are there things that seemed better on paper than acted out?**\*\*
-
-\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
-
+I acted out the interactions corresponding to the first 3 storyboards shown above by using tinkerbelle on my phone as well as laptop. The device screen was the phone's screen and I used the laptop to changet the colors. As I was acting out the interaction I realised that the lights might be a little dim to catch the attention of a person and adding some kind of sound might be necessary.
 
 ## Part C. Prototype the device
 
-You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
-
-Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
-
-We invented this tool for this lab! 
-
-If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
-
 \*\***Give us feedback on Tinkerbelle.**\*\*
-
+I really enjoyed using Tinkerbelle! The only feedback I have for it is that it is a bit confusing to figure out what the Jane Wren and Tinkerbelle buttons do without any labels.
 
 ## Part D. Wizard the device
 I did not face any trouble wizarding the device and setting everything up. I made use of some tape, colored paper and markers for this. 
@@ -101,21 +95,15 @@ I did not face any trouble wizarding the device and setting everything up. I mad
 
 ## Part E. Costume the device
 
-Only now should you start worrying about what the device should look like. Develop three costumes so that you can use your phone as this device.
-
-Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
-
-\*\***Include sketches of what your devices might look like here.**\*\*
-
-\*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+I wanted to keep the design as simple as possible while making sure to add some colors and playfulness :)
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/costume.jpg" width=70% height=70%>
 
 
 ## Part F. Record
 [![Staging Interactions Video](https://img.youtube.com/vi/3Q6mQROwuEc/0.jpg)](https://youtu.be/3Q6mQROwuEc)
 
 
-\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+I filmed the interactions video by myself and made use of iMovie! The hydratinator name was inspired by Dr. Doofenshmirtz because he adds "inator" to all his inventions' names and the idea was inspired by this awesome bottle I recently started using - https://hidratespark.com.
 
 
 
