@@ -84,7 +84,7 @@ Sometimes sounds of the city can make it difficult to sleep so a white noise mac
 <img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/night_light.jpg" width=70% height=70%>
 
 #### A book light that can play ambient sounds
-To emulate the feeling of curling up by a bonfire, or sitting in a park or any kind of nature related setting while sitting right at home and reading a book. The lights can also be changed to make reading feel even more magical :)
+To emulate the feeling of curling up by a bonfire, or sitting in a park or any kind of nature related setting while sitting right at home and reading a book. The light's colors can also be changed to make reading feel even more magical :)
 <img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/book_light.jpg" width=70% height=70%>
 
 ### Feedback
@@ -95,7 +95,7 @@ As I faced some technical issues during the lab, I wasn't able to get feedback o
 
 ## Part B. Act out the Interaction
 
-I acted out the interactions corresponding to the first 3 storyboards shown above by using tinkerbelle on my phone as well as laptop. The device screen was the phone's screen and I used the laptop to changet the colors. As I was acting out the interaction I realised that the lights might be a little dim to catch the attention of a person and adding some kind of sound might be necessary.
+I acted out the interactions corresponding to the first 3 storyboards shown above by using tinkerbelle on my phone as well as laptop. The device screen was the phone's screen and I used the laptop to change the colors. As I was acting out the interaction I realised that the lights might be a little dim to catch the attention of a person and adding some kind of sound might be necessary.
 
 ## Part C. Prototype the device
 
