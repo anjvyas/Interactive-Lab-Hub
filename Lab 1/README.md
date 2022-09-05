@@ -148,24 +148,24 @@ This is why I envisioned the new device to be much smaller than the original one
 
 #### Sending positive thoughts (2 different scenarios)
 Attached to a laptop <br />
-<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/miss_you_machine2.jpg" width=70% height=70%>
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/miss_you_machine2.jpg" width=70% height=70%> <br />
 Attached to a phone <br />
 <img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/miss_you_machine3.jpg" width=70% height=70%>
 
 #### Hydration reminders
 Attached to a bottle <br />
-<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/hydratinator2.jpg" width=70% height=70%>
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/hydratinator2.jpg" width=70% height=70%> <br />
 Attached to a laptop <br />
-<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/hydratinator3_a.jpg" width=70% height=70%>
-<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/hydratinator3_b.jpg" width=70% height=70%>
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/hydratinator3_a.jpg" width=70% height=70%> <br />
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/hydratinator3_b.jpg" width=70% height=70%> <br />
 Attached to a phone <br />
-<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/hydratinator4.jpg" width=70% height=70%>
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/hydratinator4.jpg" width=70% height=70%> <br />
 
 #### Checking the weather
 Attached to a door handle (rainy weather) <br />
-<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/weather_buddy.jpg" width=70% height=70%>
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/weather_buddy.jpg" width=70% height=70%> <br />
 Attached to a door handle (sunny weather) <br />
-<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/weather_buddy.jpg" width=70% height=70%>
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/weather_buddy.jpg" width=70% height=70%> <br />
 
 ### Feedback
 This is the feedback I received from the people at my table:
