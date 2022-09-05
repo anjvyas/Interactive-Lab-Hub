@@ -139,4 +139,69 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative! Feel free to fork and modify the tinkerbell code! 
 3) We will be grading with an emphasis on creativity. 
 
-\*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+## Part A. Plan 
+
+### Storyboards and Scenarios
+I wanted to build on some of the feedback that I received for the prototypes in part 1. I realized that the original prototypes would not be very convenient for users because they are not portable. Putting myself in their shoes, I realized that if I am out and about or even just not at home, I would not take a stand and big display along with me. I also wanted to explore what it would be like to combine the functionality of the 3 devices into one because it did not seem very difficult to do so.
+
+This is why I envisioned the new device to be much smaller than the original ones (the size of an apple watch screen) and it can be affixed to any surface with some materials and casing that come with it to provide flexibility for the people using it. 
+
+#### Sending positive thoughts
+
+
+#### Hydratinator
+When I am in my zone while studying or working, I often forget to drink water for hours. Then my head starts hurting and it takes me a while to realize that I just need to drink water. The hydratinator aims to solve this by glowing blue periodically to remind the user to stay hydrated!
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/hydratinator.jpg" width=70% height=70%>
+
+#### Weather Buddy
+A lot of times when I leave home in a rush, I forget to check the weather and don't grab my umbrella. Sometimes I end up feeling cold because I underestimate how chilly it is going to be. Even though it is easy to swipe left and check the weather app or ask Google/Siri, I forget to do it. I would appreciate a visual reminder that I can see right in front of me as I am leaving my home or getting ready. This is why I believe 'weather buddy' would be useful - it can make sounds and change colors based on the weather!
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/weather_buddy.jpg" width=70% height=70%>
+
+#### A simple way to grab a prof's attention from the back of a big classroom
+I have often sat in classrooms that are very big and I can imagine it being difficult for professors to see people raising their hands. This light device might be a good solution for this issue. Different colors can also be used to signify different things.
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/lecture.jpg" width=70% height=70%>
+
+#### A spooky interactive halloween decoration
+I love halloween and thought of making a spooky ghost decoration that can be placed in a pitch dark room. When someone enters, the lights can turn on and make a spooky sound!
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/spooky.jpg" width=70% height=70%>
+
+#### A night light + sleep sounds player
+Sometimes sounds of the city can make it difficult to sleep so a white noise machine or peaceful sound player can help a lot.
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/night_light.jpg" width=70% height=70%>
+
+#### A book light that can play ambient sounds
+To emulate the feeling of curling up by a bonfire, or sitting in a park or any kind of nature related setting while sitting right at home and reading a book. The light's colors can also be changed to make reading feel even more magical :)
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/book_light.jpg" width=70% height=70%>
+
+### Feedback
+As I faced some technical issues during the lab, I wasn't able to get feedback on my storyboards from my group. However, I did show them to my friends and they suggested:
+- The lights could potentially be distracting for professors as they try to teach.
+- It would be helpful to make the hydratinator and miss you machine more portable somehow (maybe they could take up the form of wearables of some kind or smaller devices that can latch onto a laptop itself).
+- The light brightness/intensity should be adjustable, especially for the night light.
+
+## Part B. Act out the Interaction
+
+I acted out the interactions corresponding to the first 3 storyboards shown above by using tinkerbelle on my phone as well as laptop. The device screen was the phone's screen and I used the laptop to change the colors. As I was acting out the interaction I realised that the lights might be a little dim to catch the attention of a person and adding some kind of sound might be necessary.
+
+## Part C. Prototype the device
+
+\*\***Give us feedback on Tinkerbelle.**\*\*
+I really enjoyed using Tinkerbelle! The only feedback I have for it is that it is a bit confusing to figure out what the Jane Wren and Tinkerbelle buttons do without any labels.
+
+## Part D. Wizard the device
+I did not face any trouble wizarding the device and setting everything up. I made use of some tape, colored paper and markers for this. 
+[![Setup Video](https://img.youtube.com/vi/2eptFcXcbFk/0.jpg)](https://youtu.be/2eptFcXcbFk)
+
+
+## Part E. Costume the device
+
+I wanted to keep the design as simple as possible while making sure to add some colors and playfulness :)
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/costume.jpg" width=70% height=70%>
+
+
+## Part F. Record
+[![Staging Interactions Video](https://img.youtube.com/vi/3Q6mQROwuEc/0.jpg)](https://youtu.be/3Q6mQROwuEc)
+
+
+I filmed the interactions video by myself and made use of iMovie! The hydratinator name was inspired by Dr. Doofenshmirtz because he adds "inator" to all his inventions' names and the idea was inspired by this awesome bottle I recently started using - https://hidratespark.com.
+
