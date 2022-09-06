@@ -163,9 +163,9 @@ Attached to a phone <br />
 
 #### Checking the weather
 Attached to a door handle (rainy weather) <br />
-<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/weather_buddy.jpg" width=70% height=70%> <br />
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/weather_buddy2.jpg" width=70% height=70%> <br />
 Attached to a door handle (sunny weather) <br />
-<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/weather_buddy.jpg" width=70% height=70%> <br />
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/weather_buddy3.jpg" width=70% height=70%> <br />
 
 ### Feedback
 This is the feedback I received from the people at my table:
