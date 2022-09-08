@@ -42,4 +42,5 @@
 1 x [5V 2.5A Switching Power Supply with 20AWG MicroUSB Cable](https://www.adafruit.com/product/1995) 
 
 ## Missing Parts here
-\*\*\***List down parts you did not get from the kit here**\*\*\*
+HD Webcam
+SparkFun Qwiic Cable Kit
