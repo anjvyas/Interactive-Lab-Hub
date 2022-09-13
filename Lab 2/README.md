@@ -208,9 +208,8 @@ The sketch below shows my idea and logic. I chose to not show minutes precisely 
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
-
-[![Clock showing 12:55pm](https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%202/sun_clock_actual.jpg)](https://youtube.com/shorts/lHto8xvMFLY?feature=share)
-[![Clock showing 10:49pm and then 10:50pm!](https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%202/moon_clock_actual.jpg)](https://youtube.com/shorts/ObRZU8GNRJo)
+<a href="https://youtube.com/shorts/lHto8xvMFLY?feature=share" title="Clock showing 12:55pm"><img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%202/sun_clock_actual.jpg" width="40%" height="40%"></a>
+<a href="https://youtube.com/shorts/ObRZU8GNRJo" title="Clock showing 10:49pm and then 10:50pm!"><img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%202/moon_clock_actual.jpg" width="40%" height="40%"></a>
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
