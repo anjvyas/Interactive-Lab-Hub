@@ -188,7 +188,6 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
 
-
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
 
 After you edit and work on the scripts for Lab 2, the files should be upload back to your own GitHub repo! You can push to your personal github repo by adding the files here, commiting and pushing.
@@ -201,6 +200,11 @@ After you edit and work on the scripts for Lab 2, the files should be upload bac
 
 After that, Git will ask you to login to your GitHub account to push the updates online, you will be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you set up in Part A as the password instead of your account one! Go on your GitHub repo with your laptop, you should be able to see the updated files from your Pi!
 
+I chose to focus on the time of day rather than the date (month, year) to make effective use of the small screen. I wanted it to make it apparent whether it was day / night with by using a sun and moon illustration and white / black background. To make my clock have a drawing like feel, I drew up the different parts! :)
+
+The sketch below shows my idea and logic. I chose to not show minutes precisely (only in increments of 10) because I intend the clock to be used more for fun than very functional purposes.
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%202/sun_clock.jpg" width=70% height=70%>
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%202/moon_clock.jpg" width=70% height=70%>
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
