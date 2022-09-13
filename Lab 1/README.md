@@ -61,8 +61,7 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 #### The Miss You Machine
 I'm an international student from India and I often miss my family and friends back home. Sometimes when my parents call, I am distracted with work and I don't pick up. Sometimes, when I call them, they are at work. With the miss you machine, loved ones can just send positive thoughts through a click and they would show up as pink glowing on the device. This helps remind them that you are thinking of them even though it may be difficult to find times to talk on a call :)  
-<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%202/sun_clock.jpg" width=70% height=70%>
-<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%202/moon_clock.jpg" width=70% height=70%>
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%201/miss_you_machine.jpg" width=70% height=70%>
 
 #### Hydratinator
 When I am in my zone while studying or working, I often forget to drink water for hours. Then my head starts hurting and it takes me a while to realize that I just need to drink water. The hydratinator aims to solve this by glowing blue periodically to remind the user to stay hydrated!
