@@ -223,6 +223,9 @@ I wanted to add some features to make my sun and moon clock more fun and functio
   
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+Feedback from people at my table:
+- Heather: If you just show the exact time it will eliminate the purpose of the main idea that you had (people might just ignore it). Think of another way to show precise minutes. (I thought this was a great point).
+- Aashika and Runze: instead of showing a bird or rocket fly by something cool you could do is make use of the sun’s rays and the phases of the moon to show how many minutes have gone by! (I really liked this suggestion of theirs).
 
 # Lab 2 Part 2
 
