@@ -214,7 +214,7 @@ The sketch below shows my idea and logic. I chose to not show minutes precisely 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 I wanted to add some features to make my sun and moon clock more fun and functional too. Since my family is in India and I often end up googling what the time is there (I can rarely do it mentally), I thought it would be nice to have a button that allows people to switch between at New York (EDT) and India (IST) time zones as shown below. I also wanted to include the precise time and some fun cues for when 1 minute passes.
-<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%202/part_g.jpg" width=70% height=70%>
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%202/part_g.jpeg" width=70% height=70%>
 
 # Prep for Part 2
 
