@@ -237,4 +237,12 @@ As always, make sure you document contributions and ideas from others explicitly
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
+## My modifications
+To improve on my clock, I incorporated my classmates very helpful feedback. I decided to use Aashika and Runze's idea to show the time more precisely using the sun's rays and the phases of the moon. The number of leaves / white stars corresponds to the number of 10 minutes and the number of rays / appearance of the moon phases corresponds to the number of minutes between 0 and 9. So for instance if there are 5 leaves and 6 rays on the sun then the number of minutes is 56!
+
+I decided to leave out the rocket and bird animation since with the help of the feedback I got, I was able to come up with a way to display minutes more precisely. I also decided to leave out the written time because I agreed with Heather's feedback where she said that displaying the actual time will overshadow the visual way of displaying time.
+
+Lastly, I made it so that pressing the top button shows NYC time and pressing the bottom button shows India time! There is a label present to easily see which timezone the clock is currently displaying
+
+## Video
 
