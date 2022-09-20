@@ -242,7 +242,9 @@ To improve on my clock, I incorporated my classmates very helpful feedback. I de
 
 I decided to leave out the rocket and bird animation since with the help of the feedback I got, I was able to come up with a way to display minutes more precisely. I also decided to leave out the written time because I agreed with Heather's feedback where she said that displaying the actual time will overshadow the visual way of displaying time.
 
-Lastly, I made it so that pressing the top button shows NYC time and pressing the bottom button shows India time! There is a label present to easily see which timezone the clock is currently displaying
+Lastly, I made it so that pressing the top button shows NYC time and pressing the bottom button shows India time! There is a label present to easily see which timezone the clock is currently displaying.
+
+The script for the first version of the clock can be found in sunmoon.py and the script for the second version can be found in sunmoonv2.py.
 
 ## Video
-
+<a href="https://youtu.be/1EZSkxDEA9g" title="The new and improved sun and moon clock :)"><img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%202/SunMoon.png" width="40%" height="40%"></a>
