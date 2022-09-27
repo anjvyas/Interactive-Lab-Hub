@@ -115,7 +115,6 @@ Find a partner, and *without sharing the script with your partner* try out the d
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
-?feature=share
 <a href="https://youtube.com/shorts/y-MSARshY0Q" title="Exercise buddy"><img src="https://images.unsplash.com/photo-1611162616475-46b635cb6868?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2274&q=80" width="40%" height="40%"></a>
 
 ### Wizarding with the Pi (optional)
