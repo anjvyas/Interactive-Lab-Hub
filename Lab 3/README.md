@@ -106,7 +106,9 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 My idea is for a device that can support people as they exercise. A lot of times when doing reps, people lose track of how many they have done. When counting the number of seconds with exercises like planks, people often end up counting inaccurately, especially when they might feel tired.
 
 \*\***Post your storyboard and diagram here.**\*\*
-<img src=“image_link” width=70% height=70%>
+<img src=“https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/exercise_pushup.jpg” width=70% height=70%>
+<img src=“https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/exercise_squat.jpg” width=70% height=70%>
+<img src=“https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/exercise_plank_summary.jpg” width=70% height=70%>
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
