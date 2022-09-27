@@ -103,11 +103,17 @@ From a remote browser on the same network, check to make sure your webserver is 
 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
+My idea is for a device that can support people as they exercise. A lot of times when doing reps, people lose track of how many they have done. When counting the number of seconds with exercises like planks, people often end up counting inaccurately, especially when they might feel tired.
+
 \*\***Post your storyboard and diagram here.**\*\*
+<img src=“image_link” width=70% height=70%>
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
 \*\***Please describe and document your process.**\*\*
+My process was to create flow chart with my initial idea in figma. Then I went through and added comments while trying to improve every aspect of the diaogue.
+<img src=“image_link” width=70% height=70%>
+
 
 ### Acting out the dialogue
 
@@ -116,6 +122,10 @@ Find a partner, and *without sharing the script with your partner* try out the d
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
 <a href="https://youtube.com/shorts/y-MSARshY0Q" title="Exercise buddy"><img src="https://images.unsplash.com/photo-1611162616475-46b635cb6868?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2274&q=80" width="40%" height="40%"></a>
+
+Interesting things I noticed:
+- My friend ended up using the stop keyword with the exercises other than the plank too even though I didn't mention it as an option. In hindsight I realized that this would be a good way to do it so when I actually write the code, I will do it this way.
+- I also felt that the user might want to start the exercise even before the device finishes saying "starting the count for [exercise name]" so it needs to be alert for this case. 
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
