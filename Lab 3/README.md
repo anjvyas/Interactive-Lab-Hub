@@ -106,15 +106,15 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 My idea is for a device that can support people as they exercise. A lot of times when doing reps, people lose track of how many they have done. When counting the number of seconds with exercises like planks, people often end up counting inaccurately, especially when they might feel tired.
 
 \*\***Post your storyboard and diagram here.**\*\*
-<img src=“https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/exercise_pushup.jpg” width=70% height=70%>
-<img src=“https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/exercise_squat.jpg” width=70% height=70%>
-<img src=“https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/exercise_plank_summary.jpg” width=70% height=70%>
+![Pushup storyboard](https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/exercise_pushup.jpg)
+![Squat storyboard](https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/exercise_squat.jpg)
+![Plank and summary storyboard](https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/exercise_plank_summary.jpg)
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
 \*\***Please describe and document your process.**\*\*
 My process was to create flow chart with my initial idea in figma. Then I went through and added comments while trying to improve every aspect of the diaogue.
-<img src=“https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/dialogue_ideas.png” width=70% height=70%>
+![Dialogue Ideas](https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%25203/dialogue_ideas.png)
 
 
 ### Acting out the dialogue
