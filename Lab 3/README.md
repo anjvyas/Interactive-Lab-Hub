@@ -114,7 +114,7 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 
 \*\***Please describe and document your process.**\*\*
 My process was to create flow chart with my initial idea in figma. Then I went through and added comments while trying to improve every aspect of the diaogue.
-<img src=“image_link” width=70% height=70%>
+<img src=“https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/dialogue_ideas.png” width=70% height=70%>
 
 
 ### Acting out the dialogue
