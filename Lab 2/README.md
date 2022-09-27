@@ -248,4 +248,4 @@ Lastly, I made it so that pressing the top button shows NYC time and pressing th
 The script for the first version of the clock can be found in sunmoon.py and the script for the second version can be found in sunmoonv2.py.
 
 ## Video
-<a href="https://youtu.be/1EZSkxDEA9g" title="The new and improved sun and moon clock :)"><img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%202/SunMoon.png" width="40%" height="40%"></a>
+<a href="https://youtu.be/1EZSkxDEA9g" title="The new and improved sun and moon clock :)"><img src="https://images.unsplash.com/photo-1611162616475-46b635cb6868?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2274&q=80" width="40%" height="40%"></a>
