@@ -116,7 +116,7 @@ Find a partner, and *without sharing the script with your partner* try out the d
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
 ?feature=share
-<a href="https://youtube.com/shorts/y-MSARshY0Q" title="Exercise buddy"><img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%202/SunMoon.png" width="40%" height="40%"></a>
+<a href="https://youtube.com/shorts/y-MSARshY0Q" title="Exercise buddy"><img src="https://images.unsplash.com/photo-1611162616475-46b635cb6868?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2274&q=80" width="40%" height="40%"></a>
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
