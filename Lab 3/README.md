@@ -144,6 +144,11 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
 3. Make a new storyboard, diagram and/or script based on these reflections.
 
+## Feedback
+Here is the feedback I received on part 1 from Saki:
+- Add a motivating component to the voice.
+- Try to record data from exercises to show the user progress over time.
+
 ## Prototype your system
 
 The system should:
