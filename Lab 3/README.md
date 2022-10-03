@@ -159,9 +159,13 @@ The system should:
 *Document how the system works*
 
 *Include videos or screencaptures of both the system and the controller.*
+<a href=“https://youtube.com/shorts/3L6x85beG_U?feature=share” title=“How the system is set up”><img src=“https://images.unsplash.com/photo-1611162616475-46b635cb6868?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80“ width=“40%” height=“40%”></a>
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
+
+### Video of friend interacting with device
+<a href=“https://youtube.com/shorts/-yEdhCRKeH0?feature=share” title=“Exercise Buddy Prototype Interactions”><img src=“https://images.unsplash.com/photo-1611162616475-46b635cb6868?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80“ width=“40%” height=“40%”></a>
 
 Answer the following:
 
