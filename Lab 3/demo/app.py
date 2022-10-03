@@ -23,7 +23,7 @@ i2c = busio.I2C(board.SCL, board.SDA)
 msa = MSA311(i2c)
 
 hostname = socket.gethostname()
-hardware = 'plughw:2,0'
+hardware = 'plughw:1,0'
 
 app = Flask(__name__)
 socketio = SocketIO(app)
