@@ -160,14 +160,15 @@ The system should:
 
 *Include videos or screencaptures of both the system and the controller.*
 
-<a href=“https://youtube.com/shorts/3L6x85beG_U?feature=share” title=“How the system is set up”><img src=“https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/video.png“ width=“40%” height=“40%”></a>
+<a href="https://youtube.com/shorts/3L6x85beG_U?feature=share" title="How the system is set up"><img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/video.png" width="40%" height="40%"></a>
+
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
 ### Video of friend interacting with device
 
-<a href=“https://youtube.com/shorts/-yEdhCRKeH0?feature=share” title=“Exercise Buddy Prototype Interactions”> <img src=“https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/video.png“ width=“40%” height=“40%”> </a>
+<a href="https://youtube.com/shorts/-yEdhCRKeH0?feature=share" title="Exercise Buddy Prototype Interactions"> <img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/video.png" width="40%" height="40%"> </a>
 
 Answer the following:
 
