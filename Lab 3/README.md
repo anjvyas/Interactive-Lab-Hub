@@ -167,7 +167,7 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 ### Video of friend interacting with device
 
-<a href=“https://youtube.com/shorts/-yEdhCRKeH0?feature=share” title=“Exercise Buddy Prototype Interactions”><img src=“https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/video.png“ width=“40%” height=“40%”></a>
+<a href=“https://youtube.com/shorts/-yEdhCRKeH0?feature=share” title=“Exercise Buddy Prototype Interactions”> <img src=“https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/video.png“ width=“40%” height=“40%”> </a>
 
 Answer the following:
 
