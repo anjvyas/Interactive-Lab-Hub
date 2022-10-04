@@ -176,7 +176,7 @@ rep_counts.py uses input from the proximity sensor as well and continously monit
 
 My webcam's microphone was not working so I made use of my personal stereo webcam for its microphone and used the school provided webcam for its speaker. The shell script runs file to convert the sound from stereo - https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/speech2text/stereo_to_mono.py
 
-After the recorded sound was converted from stereo to mono, the shell script would runs test_words.py - a python file that identifies the words in the sound file - https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/speech2text/test_words.py
+After the recorded sound is converted from stereo to mono, the shell script runs test_words.py - a python file that identifies the words in the sound file - https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/speech2text/test_words.py
 
 test_words.py updates summary.json (the file that rep_counts continously monitors) with the current exercise/command it heard from the microphone so that rep_counts can add counts to the correct exercise or say the summary.
 
@@ -195,7 +195,7 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-In original (non-wizarding) system, the lag of the speech2text interpreter made the system a little difficult to use practically. The wizarding setup was very smooth though and the only issue I encountered with it was its inability to pronounce the name of my friend correctly, although to be fair this is a problem most smart assistants have too. 
+In the original (non-wizarding) system, the lag of the speech2text interpreter made the system a little difficult to use practically. The wizarding setup was very smooth though and the only issue I encountered with it was its inability to pronounce the name of my friend correctly, although to be fair this is a problem most smart assistants have too. 
 
 ### What worked well about the controller and what didn't?
 Even though the sound output was almost instantaneous, which was great, it was tricky to type everything fast enough and sometimes there ended up being a lag just because of this issue. This is why after my first trial run I made sure to keep common ready to copy and paste dialogue options written down that can be immediately pasted based on what the user does.  
