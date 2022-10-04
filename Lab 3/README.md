@@ -144,10 +144,16 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
 3. Make a new storyboard, diagram and/or script based on these reflections.
 
-## Feedback
+### (1) Feedback
 Here is the feedback I received on part 1 from Saki:
 - Add a motivating component to the voice.
 - Try to record data from exercises to show the user progress over time.
+
+### (2) Modes of interaction beyond speech
+Speech would definitely be the most convenient medium to interact with the device, however, in some noisy gym environments this approach may not be feasible, so an alternate version of the device can make use of buttons to switch between exercises. Also it may not be apparent as to how the device functions so a small display showing instructions visually for users would also be very useful.
+
+### (3) New dialogue based on feedback
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/dialogue_pt2.png" width=70% height=70%>
 
 ## Prototype your system
 
@@ -159,6 +165,22 @@ The system should:
 *Document how the system works*
 
 *Include videos or screencaptures of both the system and the controller.*
+
+For my first try, I tried implementing the actual system, without any wizarding. I felt that this would result in a smoother user experience too.
+
+To implement this, I wrote a shell script that allows me to continuously record with the microphone in 5 second increments and analyze the speech to output sounds accordingly - https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/speech2text/exercise_buddy.sh
+
+I ran this python file (rep_counts.py) in parallel with the while loop that continuously records microphone sounds - https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/speech2text/rep_counter.py
+
+rep_counts.py uses input from the proximity sensor as well and continously monitors and modifies the summary json file to keep track of the number of times the person has done pushups, squats, what the current command is (pushups, squats, stop or summary) - https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/speech2text/summary.json
+
+My webcam's microphone was not working so I made use of my personal stereo webcam for its microphone and used the school provided webcam for its speaker. The shell script runs file to convert the sound from stereo - https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/speech2text/stereo_to_mono.py
+
+After the recorded sound was converted from stereo to mono, the shell script would runs test_words.py - a python file that identifies the words in the sound file - https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/speech2text/test_words.py
+
+test_words.py updates summary.json (the file that rep_counts continously monitors) with the current exercise/command it heard from the microphone so that rep_counts can add counts to the correct exercise or say the summary.
+
+Even though the system works in theory, in practice there is quite a lot of lag in the time it takes for the program to identify words from speech which would not be enjoyable for users. This is why, I switched to the wizarding approach. My setup can be seen in the video below.
 
 <a href="https://youtube.com/shorts/3L6x85beG_U?feature=share" title="How the system is set up"><img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/video.png" width="40%" height="40%"></a>
 
@@ -173,18 +195,16 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+In original (non-wizarding) system, the lag of the speech2text interpreter made the system a little difficult to use practically. The wizarding setup was very smooth though and the only issue I encountered with it was its inability to pronounce the name of my friend correctly, although to be fair this is a problem most smart assistants have too. 
 
 ### What worked well about the controller and what didn't?
-
-\*\**your answer here*\*\*
+Even though the sound output was almost instantaneous, which was great, it was tricky to type everything fast enough and sometimes there ended up being a lag just because of this issue. This is why after my first trial run I made sure to keep common ready to copy and paste dialogue options written down that can be immediately pasted based on what the user does.  
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
-
-\*\**your answer here*\*\*
+One lesson I have taken away from this is that it is very useful to do a WoZ interaction first rather than an autonomous version as I did because I learned a lot from the WoZ version and it took much less time to do. One thing I would do is put a lot more emphasis on making the device appealing to use and portable because my friend who interacted with it found the wires and separate components to be quite unwieldy. It would be a good idea to package all components into one visually appealing closed container for next time. 
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
+It would be useful to record how close people tend to get to the prozimity sensor while doing pushups and squats and compare this to what the advised proximity would be if the exercise is done in proper form. It would also be useful to see how people pronounce the different exercise names to make sure the analyzer is inclusive and works well for people with different accents. Another idea is that instead of using speech to trigger an exercise, we could also use gestures in high noise envrionments. 
 
-\*\**your answer here*\*\*
 
