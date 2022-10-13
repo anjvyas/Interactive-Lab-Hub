@@ -292,6 +292,9 @@ I added the blue flap with a hole for the pi power cable to the side and also dr
 
 <img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%204/step8.png" width=50% height=50%>
 
+#### Video showing how I set up the boom-bot with components
+<a href="https://youtu.be/KPsZNazGqC0" title="Boom-bot prototype"><img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/video.png" width="40%" height="40%"></a>
+
 LAB PART 2
 
 ### Part 2
