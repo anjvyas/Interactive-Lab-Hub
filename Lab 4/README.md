@@ -186,6 +186,11 @@ In the sketches below I describe different ways in which the gesture sensor can 
 
 Based on my manual testing, I realized that having the gesture sensor face downwards would be the most uncomfortable configuration followed by having it facing up and lastly, having it front facing. This is why I decided that the sensor should be kept front facing for my actual prototype.
 
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%204/partc_1.jpg" width=70% height=70%>
+
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%204/partc_2and3.jpg" width=70% height=70%>
+
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%204/partc_4and5.jpg" width=70% height=70%>
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
@@ -233,10 +238,59 @@ Think about how you want to present the information about what your sensor is se
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
+For this part, I focused on figuring out the best way to house different components that the device would have. I hadn't previously considered having a display but then thought that it would be nice to have another way to show what the sensor ended up detecting (up, down, left or right) other than just the sound. The display can also show what song the user has chosen to play through gestures (can be provided as an input to the script after choosing from a list available options).
+
+I chose to focus on the box design that looks like a musical note because I thought that would be more feasible than the glove and at the same time more portable than the robot and house designs. I think it is important to package the components in a visually appealing container because that would make the device feel much more inviting than some loose wires.
+
+These sketches made me realize just how many different ways there are for me to position and organize all my components with respect to my physical UI. Some questions that they prompted me to think about include (1) what design would allow me to most easiy remove and put in my components? (2) what design would make sure that components don't shuffle around too much inside? (3) what design would ensure that the user experience is fun and not clunky with too many moving parts?
+
+Thinking about all these things thoroughly led me to conclude that the very last configuration I came up with would be the best one where all components fit in one single unit and only the needed part of the gesture sensor is visible to the user.
+
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%204/partd_1and2.jpg" width=70% height=70%>
+
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%204/partd_345.jpg" width=70% height=70%>
+
 Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
 
+Interestingly, when I started to actually build the prototype, I realized that it was quite infeasible, it ended up being quite difficult for me to fashion a nice looking, non-flimsy musical note shaped box. This is why I decided to use the "boom bot" that I had come up with earlier but with some slight adjustments - I realized that there was no real need for the robot to have a body, just a head is enough and would allow for the portability that I picked the musical note shaped box design for in the first place.
+
+1. I started off by gathering some materials - some tape, scissors, colored paper, graph paper and a tissue box.
+
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%204/step1.png" width=50% height=50%>
+
+Next I covered the tissue box with some graph paper to make it have an evenly colored surface and make it look nice - this will end up being the boom-bot's head.
+
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%204/step2.png" width=50% height=50%>
+
+Here's the box from another angle (this is the side through which I will end up placing all my components inside. Soon I will add a blue flap that will hide it.
+
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%204/step3_a.png" width=50% height=50%>
+
+I added a blue square to the other side so it will look symmetric with the blue flap I mentioned above. 
+
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%204/step3_b.png" width=50% height=50%>
+
+I found a smaller box for the boom-bot's "gesture antenna"
+
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%204/step4.png" width=50% height=50%>
+
+I poked a hole in the top part of the boom bot so I can pull a QWIC cable from the inside
+
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%204/step5.png" width=50% height=50%>
+
+I covered the small box with blue paper and put it above the hole with some tape
+
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%204/step6.png" width=50% height=50%>
+
+I cut out a smile for the boom-bot. This is where the speaker will be placed inside so sound can carry through more easily.
+
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%204/step7.png" width=50% height=50%>
+
+I added the blue flap with a hole for the pi power cable to the side and also drew a musical face :)
+
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%204/step8.png" width=50% height=50%>
 
 LAB PART 2
 
