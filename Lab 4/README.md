@@ -1,6 +1,6 @@
 # Ph-UI!!!
 
-**NAMES OF COLLABORATORS HERE**
+For this lab I only used the help (for recording) of my friend who is not a Cornell Tech student.
 
 
 For lab this week, we focus both on sensing, to bring in new modes of input into your devices, as well as prototyping the physical look and feel of the device. You will think about the physical form the device needs to perform the sensing as well as present the display or feedback about what was sensed. 
@@ -179,6 +179,12 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
+
+In the previous parts, I really enjoyed using the gesture sensor in particular. This is why I picked it for the subsequent parts. An application that immediately came to my mind was for music creation with gestures. As a kid I would always see Tom and Jerry gesture in the air as conductors for musical orchestras. I thought it would be really fun to develop a device that could sense your gestures and based on which gesture you do, emanate a specific note.
+
+In the sketches below I describe different ways in which the gesture sensor can be placed on the device for this to work. While doing the sketches, I realized that some of the configurations would definitely be sub-optimal and awkward compared to the others as my comments say. The questions that came to my mind throughout this exercise were (1) which sensor positions would allow most flexibility for a potential user? (2) which sensor positions would allow the most ease of use for a potential user? And this prompted me to mimick different movements myself to test them out.
+
+Based on my manual testing, I realized that having the gesture sensor face downwards would be the most uncomfortable configuration followed by having it facing up and lastly, having it front facing. This is why I decided that the sensor should be kept front facing for my actual prototype.
 
 
 ### Part D
