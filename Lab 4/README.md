@@ -338,3 +338,21 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
 
+#### Process of building
+I've documented how I came up with and built the physical UI through pictures and sketches above. In this part, I actually implemented the functionality using the gesture sensor and speaker!
+
+I started by picking a song that I wanted to be able to play on the BoomBot. I picked Beethoven's 5th Symphony because I think it's awesome. Next, I figured out what notes are used in its first few seconds and found open source audio files with those individual notes played on the piano - G, D sharp, D and F (https://freesound.org/ - this website is great).
+
+I also needed to change the mp3 files to wav files because they weren't playing on the speaker as is. Lastly, I assigned each note to a direction in this file where I wrote all my code for the BoomBot - https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%204/boombot.py
+
+The videos below show what the BoomBot looks like, works like and acts like!
+
+#### Looks like
+<a href="https://youtu.be/on_XOXipnto" title="What does the BoomBot look like"><img src=“https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/video.png“ width=“40%” height=“40%”></a>
+
+#### Works like
+<a href="https://youtu.be/AyzjFYZaEYY" title="What does the BoomBot look like"><img src=“https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/video.png“ width=“40%” height=“40%”></a>
+
+#### Acts like
+<a href="https://youtu.be/9maP8JmibfE" title="What does the BoomBot look like"><img src=“https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/video.png“ width=“40%” height=“40%”></a>
+
