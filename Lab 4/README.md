@@ -348,11 +348,11 @@ I also needed to change the mp3 files to wav files because they weren't playing 
 The videos below show what the BoomBot looks like, works like and acts like!
 
 #### Looks like
-<a href="https://youtu.be/on_XOXipnto" title="What does the BoomBot look like"><img src=“https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/video.png“ width=“40%” height=“40%”></a>
+<a href="https://youtu.be/on_XOXipnto" title="What does the BoomBot look like"><img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/video.png" width="40%" height="40%"></a>
 
 #### Works like
-<a href="https://youtu.be/AyzjFYZaEYY" title="What does the BoomBot look like"><img src=“https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/video.png“ width=“40%” height=“40%”></a>
+<a href="https://youtu.be/AyzjFYZaEYY" title="What does the BoomBot look like"><img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/video.png" width="40%" height="40%"></a>
 
 #### Acts like
-<a href="https://youtu.be/9maP8JmibfE" title="What does the BoomBot look like"><img src=“https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/video.png“ width=“40%” height=“40%”></a>
+<a href="https://youtu.be/9maP8JmibfE" title="What does the BoomBot look like"><img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/video.png" width="40%" height="40%"></a>
 
