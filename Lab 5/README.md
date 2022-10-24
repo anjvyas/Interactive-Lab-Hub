@@ -159,6 +159,10 @@ For technical references:
 
 **\*\*\*Include links to your code here, and put the code for these in your repo--they will come in handy later.\*\*\***
 
+For this part, I implemented threshold detection. Here is a link to my code https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%205/part_a_threshold.py
+
+My program first asks the user for a volume threshold. Then, whenever the sound goes above that volume threshold, the program prints "The volume is above [threshold value]!!".
+
 ### (Optional Reading) Introducing Additional Concepts
 The following sections ([MediaPipe](#mediapipe) and [Teachable Machines](#teachable-machines)) are included for your own optional learning. **The associated scripts will not work on Fall 2022's Pi Image, so you can move onto part B.** However, you are welcome to try it on your personal computer. If this functionality is desirable for your lab or final project, we can help you get a different image running the last OS and version of python to make the following code work.
 
