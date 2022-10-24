@@ -252,6 +252,18 @@ This might take a while to get fully installed. After installation, connect your
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
+I decided to think of a way to use the audio analysis model to implement functionality that could potentially be of benefit to people. As a student living in dorms and off campus apartments too, my rooms have often had thin walls. Sometimes when I get excited, I talk in quite a high pitched / loud voice and the next day my friends who live next door would joke that they could hear me. I've also had several friends who have had anonymous noise complaints given to them when they were just watching TV and didn't really realize that it was heard outside their room too. And of course, whenever they hosted parties, getting noise complaints was very common. A lot of times it is difficult to realize that the noise coming from your apartment is higher than it should be.
+
+This is why I wanted to prototype a noise level detector that warns people when they are being too loud and potentially disturbing their neighbors. 
+
+I tried out all these different noises with the system:
+1. The sound of a TV show playing at different volumes (1 through 100)
+2. The sound of me talking (softly to super loud)
+3. The sound of a song (baby shark doo doo) playing from lowest to highest volume
+
+I also tried a few different alert sounds to see which one was able to best cut through the sound that was already playing.
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%205/design_tool.jpeg" width=70% height=70%>
+
 ### Part C
 ### Test the interaction prototype
 
