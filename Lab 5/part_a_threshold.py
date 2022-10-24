@@ -7,6 +7,8 @@ from numpy_ringbuffer import RingBuffer
 import queue
 import time
 
+print("Please enter the volume threshold you would like to set")
+volume_thres = int(input())
 
 ## Please change the following number so that it matches to the microphone that you are using. 
 DEVICE_INDEX = 1
@@ -18,8 +20,8 @@ UPDATE_INTERVAL = 1.0
 
 ### Things you probably don't need to change
 FORMAT=np.float32
-SAMPLING_RATE = 32000
-CHANNELS=2
+SAMPLING_RATE = 16000
+CHANNELS=1
 
 
 def main():
@@ -62,7 +64,6 @@ def main():
 
                 volume = np.rint(np.sqrt(np.mean(buffer**2))*10000) # Compute the rms volume
                 
-                
                 VolumeHistory.append(volume)
                 volumneSlow = volume
                 volumechange = 0.0
@@ -73,34 +74,10 @@ def main():
                     volumechange =vnew-vold
                     volumneSlow = np.array(VolumeHistory).mean()
                 
-                ## Computes the Frequency Foruier analysis on the Audio Signal.
-                N = buffer.shape[0] 
-                window = hann(N) 
-                amplitudes = np.abs(rfft(buffer*window))[25:] #Contains the volume for the different frequency bin.
-                frequencies = (rfftfreq(N, 1/SAMPLING_RATE)[:N//2])[25:] #Contains the Hz frequency values. for the different frequency bin.
-                '''
-                Combining  the `amplitudes` and `frequencies` varialbes allows you to understand how loud a certain frequency is.
-
-                e.g. If you'd like to know the volume for 500Hz you could do the following. 
-                1. Find the frequency bin in which 500Hz belis closest to with:
-                FrequencyBin = np.abs(frequencies - 500).argmin()
                 
-                2. Look up the volume in that bin:
-                amplitudes[FrequencyBin]
-
-
-                The example below does something similar, just in revers.
-                It finds the loudest amplitued and its coresponding bin  with `argmax()`. 
-                The uses the index to look up the Freqeucny value.
-                '''
-
-
-                LoudestFrequency = frequencies[amplitudes.argmax()]
-                
-                print("Loudest Frqeuncy:",LoudestFrequency)
                 print("RMS volume:",volumneSlow)
-                print("Volume Change:",volumechange)
-                
+                if volumneSlow > volume_thres:
+                    print(f"The volume is above {volume_thres}!!")                
                 nextTimeStamp = UPDATE_INTERVAL+time.time() # See `UPDATE_INTERVAL` above
 
 
