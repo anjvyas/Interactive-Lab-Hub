@@ -102,6 +102,25 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
+##### Face Detection
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%205/face_detection.png" width=70% height=70%>
+
+We can make use of this face detection system to enable some cool smart home features. For instance, there can be a corner of the wall with a camera. Whenever someone directly looks at the camera, it automatically triggers the lights to turn on or off (or the AC or TV or any device). This would save the person the trouble of even needing to say something out loud. 
+
+##### Contours Detection
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%205/contours.png" width=70% height=70%>
+
+Contour detection would be useful for artistic effects like those seen in Snapchat filters. Here is an idea for a spooky one that could be fun to use as halloween decor: there can be a system which continuously takes in video footage and relays it onto a bigger screen with contours marked in white, everything that is not a contour can be shown in black. For an artistic exhibit it could be fun to have live contours and non-contours shown in different bright colors with high contrast. This would be similar to Andy Warhol's art but would be in video form instead! https://www.wikiart.org/en/andy-warhol
+
+##### Flow Detection
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%205/flow_detection.png" width=70% height=70%>
+
+Flow detection can be used by blind individuals to get a sense of how busy areas around them might be. The busyness captured through a video camera attached to a cane or glasses can be relayed to the individual in the form of subtle vibrations. However, a lot of care would need to be taken to make sure that the system is actually useful for their navigation and does not feel overwhelming, especially in highly busy areas.
+
+##### Object Detection
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%205/object_detection.png" width=70% height=70%>
+Object detection can be used to track the movement of surgical instruments from video footage. This movement can then be fed into models that can compare performance between novice and experienced surgeons to give them advice on how to improve.
+
 #### Filtering, FFTs, and Time Series data. 
 Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU or Microphone data stream could create a simple activity classifier between walking, running, and standing.
 
