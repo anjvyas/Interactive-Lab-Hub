@@ -355,3 +355,5 @@ It is very portable, you can take it with you wherever you go but just make sure
 
 * <b>How does Catophonous feel?</b>
 Like a cute cuddly cat (because it looks like one and also makes meow sounds to warn you!). There is an open section on top through which the speaker can be inserted and removed. It must be kept open when in use so the sound can go through. However it can be kept closed when you are traveling with it. There isn't a physical interface so it might feel a little tedious to adjust its volume threshold. In the future, I want to add a knob that lets users do this from the device itself.
+
+<a href="https://youtu.be/LsndJOIqmmM" title="Catophonous"><img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/video.png" width="40%" height="40%"></a>
