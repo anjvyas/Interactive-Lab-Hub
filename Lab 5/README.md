@@ -159,6 +159,10 @@ For technical references:
 
 **\*\*\*Include links to your code here, and put the code for these in your repo--they will come in handy later.\*\*\***
 
+For this part, I implemented threshold detection. Here is a link to my code https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%205/part_a_threshold.py
+
+My program first asks the user for a volume threshold. Then, whenever the sound goes above that volume threshold, the program prints "The volume is above [threshold value]!!".
+
 ### (Optional Reading) Introducing Additional Concepts
 The following sections ([MediaPipe](#mediapipe) and [Teachable Machines](#teachable-machines)) are included for your own optional learning. **The associated scripts will not work on Fall 2022's Pi Image, so you can move onto part B.** However, you are welcome to try it on your personal computer. If this functionality is desirable for your lab or final project, we can help you get a different image running the last OS and version of python to make the following code work.
 
@@ -248,6 +252,18 @@ This might take a while to get fully installed. After installation, connect your
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
+I decided to think of a way to use the audio analysis model to implement functionality that could potentially be of benefit to people. As a student living in dorms and off campus apartments too, my rooms have often had thin walls. Sometimes when I get excited, I talk in quite a high pitched / loud voice and the next day my friends who live next door would joke that they could hear me. I've also had several friends who have had anonymous noise complaints given to them when they were just watching TV and didn't really realize that it was heard outside their room too. And of course, whenever they hosted parties, getting noise complaints was very common. A lot of times it is difficult to realize that the noise coming from your apartment is higher than it should be.
+
+This is why I wanted to prototype a noise level detector that warns people when they are being too loud and potentially disturbing their neighbors. 
+
+I tried out all these different noises with the system:
+1. The sound of a TV show playing at different volumes (1 through 100)
+2. The sound of me talking (softly to super loud)
+3. The sound of a song (baby shark doo doo) playing from lowest to highest volume
+
+I also tried a few different alert sounds to see which one was able to best cut through the sound that was already playing.
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%205/design_tool.jpeg" width=70% height=70%>
+
 ### Part C
 ### Test the interaction prototype
 
@@ -264,6 +280,37 @@ For example:
 1. How could change your interactive system to address this?
 1. Are there optimizations you can try to do on your sense-making algorithm.
 
+#### When does it do what it is supposed to do?
+The system emits a sound whenever the volume exceeds the threshold specified by the user.
+
+#### When does it fail, and why?
+It was very interesting to see which sounds the model considers to be high volume as opposed to soft volume. I just shuffled by jacket around a little bit and it found that to be loud, but then when I said something quite loudly but in a deep voice, it didn't find that to be loud. To be able to capture loud deep noises, maybe I can also include frequency as a parameter in my next iteration of this device. When I covered it slightly with a jacket, it wasn't able to detect any loud sounds. From this experiments, I learned that it would be very important to make sure that the device is placed in a spot that can't be obstructed and can freely capture sounds.
+
+Another interesting issue that I noticed was that when I turned on the AC, its ability to detect loud sounds seemed to have diminished because of the ambient white noise that the AC made. 
+
+#### What other scenarios could cause problems?
+I wasn't able to test the system with extremely loud noises. The alert I am currently using might not even be heard in such situations. This is why the volume of the alert should probably be dynamic based on the volume of the sound that the system ends up capturing. Another potential (more complicated but cleaner) way around this problem would be to notify the user by sending an alert to their mobile device. This would avoid making a loud sound that would end up disturbing neighbors by itself too.
+
+#### User considerations
+
+##### Uncertainties in the system
+There can be a lot of usability issues with using this system unless some measures are put in place:
+1. In case there is a loud noise playing that is out of the user's control, it should be possible to very easily override the alert and temporarily turn the listening off (maybe through a button), otherwise the user would feel quite irritated.
+2. Another uncertainty with using the system is manually specifying the volume threshold that should trigger the alert. Although offering this flexibility is important it is very unclear how a user would go about figuring out this threshold. Maybe, we can provide some simple calibration instructions for the user where they have a friend sit on the other side of the wall. Next the user can turn the volume up point by point while running the system and ask their friend to let them know as soon as they are able to hear the sound outside. Since the system prints the volume captured at every point in time, this way the user will be able to figure out what threshold will work best for their particular household given the roommate preferences as well as the wall thickness.
+
+##### Consequences of misclassification
+If an alert fails to play even though the noise level is high, the entire value of the system would be nullified. The users would get noise complaints and they would completely lose faith in the device.
+If alerts keep playing even though the noise level is low, the user will feel very annoyed and just stop using the device.
+This can be a tricky balance to achieve, especially if the user finds it difficult to accurately set up a threshold value.
+
+##### How can I change my system to address this?
+To minimize the chances of such situations (misclassifications arising), I would provide the user with some information in a brochure on standard threshold values that people tend to use and have worked well depending on their lifestyle preferences. Another smooth way to make this happen would be to offer a fun online quiz where they just answer some questions and then the quiz will give them a recommended threshold value. 
+
+Another failsafe to keep in place in case users still end up setting wrong thresholds is having a warning message that says something like - "are you sure? this threshold is very low and will trigger an alert with very soft sounds too" or "are you sure? this threshold is very high, for context, an elephant would have to roar super loud for it to trigger". The system can have a sanity check for super high and super low thresholds and display these messages accordingly.
+
+##### Optimizations to sense making algorithm
+As I said previously, in my future iterations of this device I would definitely like to play around with frequency and a wider variety of sounds levels to see how that information can also be leveraged to provide a more accurate alert for disturbing sounds.
+
 ### Part D
 ### Characterize your own Observant system
 
@@ -279,8 +326,32 @@ During the lecture, we mentioned questions to help characterize a material:
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
+#### Catophonous - the noisiness detector 🐱
+<a href="https://youtu.be/u2tRoRxDOWI" title="Catophonous"><img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%203/video.png" width="40%" height="40%"></a>
+
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+* What can you use Catophonous for?
+Catophonous can warn you when you are being too noisy. It can be especially useful for you if you live with a roommate, your apartment walls are thin or you end up getting noise complaints from your neighbors. It can be difficult to know if sound from your apartment or room is going beyond it and disturbing others so Catophonous can be your trusty sidekick when you are blasting music during your party or watching a horror movie with some super loud parts.
+
+* What is a good environment for Catophonous?
+To use Catophonous you need to provide it with a volume threshold level above which it will warn you. This is why Catophonous works best when it is kept in a location where you know this optimal volume threshold above which the sound will end up disturbing others / travel beyond the wall. 
+
+* What is a bad environment for Catophonous?
+Catophonous does not work well in environments where you don't know the optimal volume threshold or when it is kept too far from the sound source and can't pick up anything. 
+
+* When will Catophonous break?
+Catophonous will break when the volume threshold is kept too high or too low, when it is kept too far from potential sources of noise and when its microphone is too covered (so it can't pick up enough sound).
+
+
+* When it breaks how will Catophonous break?
+It will either just not give you any warnings when you should be getting them or give you way too many warnings. Both of these cases are possible if you set your threshold too high or too low, which is why that step will be very important. If the microphone is covered or kept too far, Catophonous will not give you any warnings because it won't be able to hear anything.
+
+* What are other properties/behaviors of Catophonous?
+It is very portable, you can take it with you wherever you go but just make sure you change the threshold accordingly!
+
+* How does Catophonous feel?
+Like a cute cuddly cat (because it looks like one and also makes meow sounds to warn you!). There is an open section on top through which the speaker can be inserted and removed. It must be kept open when in use so the sound can go through. However it can be kept closed when you are traveling with it. There isn't a physical interface so it might feel a little tedious to adjust its volume threshold. In the future, I want to add a knob that lets users do this from the device itself.
