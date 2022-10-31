@@ -6,6 +6,7 @@ from numpy_ringbuffer import RingBuffer
 
 import queue
 import time
+import os
 
 print("Please enter the volume threshold you would like to set")
 volume_thres = int(input())
@@ -75,9 +76,10 @@ def main():
                     volumneSlow = np.array(VolumeHistory).mean()
                 
                 
-                print("RMS volume:",volumneSlow)
-                if volumneSlow > volume_thres:
-                    print(f"The volume is above {volume_thres}!!")                
+                print("Current RMS volume:",volumneSlow)
+                if volume > volume_thres:
+                    print(f"The volume is above {volume_thres}!!") 
+                    os.system("aplay meow.wav")               
                 nextTimeStamp = UPDATE_INTERVAL+time.time() # See `UPDATE_INTERVAL` above
 
 
