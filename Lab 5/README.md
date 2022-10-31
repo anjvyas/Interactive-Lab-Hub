@@ -334,7 +334,7 @@ During the lecture, we mentioned questions to help characterize a material:
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
-* What can you use Catophonous for?
+* <b> What can you use Catophonous for </b>?
 Catophonous can warn you when you are being too noisy. It can be especially useful for you if you live with a roommate, your apartment walls are thin or you end up getting noise complaints from your neighbors. It can be difficult to know if sound from your apartment or room is going beyond it and disturbing others so Catophonous can be your trusty sidekick when you are blasting music during your party or watching a horror movie with some super loud parts.
 
 * What is a good environment for Catophonous?
