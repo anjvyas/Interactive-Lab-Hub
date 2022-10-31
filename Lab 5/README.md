@@ -334,3 +334,24 @@ During the lecture, we mentioned questions to help characterize a material:
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+* What can you use Catophonous for?
+Catophonous can warn you when you are being too noisy. It can be especially useful for you if you live with a roommate, your apartment walls are thin or you end up getting noise complaints from your neighbors. It can be difficult to know if sound from your apartment or room is going beyond it and disturbing others so Catophonous can be your trusty sidekick when you are blasting music during your party or watching a horror movie with some super loud parts.
+
+* What is a good environment for Catophonous?
+To use Catophonous you need to provide it with a volume threshold level above which it will warn you. This is why Catophonous works best when it is kept in a location where you know this optimal volume threshold above which the sound will end up disturbing others / travel beyond the wall. 
+
+* What is a bad environment for Catophonous?
+Catophonous does not work well in environments where you don't know the optimal volume threshold or when it is kept too far from the sound source and can't pick up anything. 
+
+* When will Catophonous break?
+Catophonous will break when the volume threshold is kept too high or too low, when it is kept too far from potential sources of noise and when its microphone is too covered (so it can't pick up enough sound).
+
+
+* When it breaks how will Catophonous break?
+It will either just not give you any warnings when you should be getting them or give you way too many warnings. Both of these cases are possible if you set your threshold too high or too low, which is why that step will be very important. If the microphone is covered or kept too far, Catophonous will not give you any warnings because it won't be able to hear anything.
+
+* What are other properties/behaviors of Catophonous?
+It is very portable, you can take it with you wherever you go but just make sure you change the threshold accordingly!
+
+* How does Catophonous feel?
+Like a cute cuddly cat (because it looks like one and also makes meow sounds to warn you!). There is an open section on top through which the speaker can be inserted and removed. It must be kept open when in use so the sound can go through. However it can be kept closed when you are traveling with it. There isn't a physical interface so it might feel a little tedious to adjust its volume threshold. In the future, I want to add a knob that lets users do this from the device itself.
