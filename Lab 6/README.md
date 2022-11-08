@@ -121,8 +121,24 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
 
+Here is my setup - I connected the capacitive sensor to the raspberry pi and used alligator clips to interact with the sensor. 
+
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%206/part_c_setup.png" width=70% height=70%>
+
+In the MQTT explorer, every time I touched an alligator clip connected to the capacitive sensor, it showed up as "Twizzer i touched!" where i is the pad number that the alligator clip I touched is connected it.
+
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%206/part_c_mqtt.png" width=70% height=70%>
+
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
 
+I implemented data streaming with a proximity sensor. Here is the link to my code:
+https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%206/part_c.py
+
+Here are some images showing my setup and the MQTT explorer results
+
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%206/part_c_setup2.png" width=70% height=70%>
+
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%206/part_c_mqtt2.png" width=70% height=70%>
 
 ### Part D
 ### The One True ColorNet
