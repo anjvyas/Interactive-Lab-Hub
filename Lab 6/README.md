@@ -131,8 +131,14 @@ In the MQTT explorer, every time I touched an alligator clip connected to the ca
 
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
 
+I implemented data streaming with a proximity sensor. Here is the link to my code:
+https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%206/part_c.py
 
+Here are some images showing my setup and the MQTT explorer results
 
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%206/part_c_setup2.png" width=70% height=70%>
+
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%206/part_c_mqtt2.png" width=70% height=70%>
 
 ### Part D
 ### The One True ColorNet
