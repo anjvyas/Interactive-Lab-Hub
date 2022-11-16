@@ -99,7 +99,7 @@ This is a novel feature of our device and has not been implemented before.
 
 Here is the timeline we intend to follow to get our interactive device ready on time:
 
-<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/timeline.png" width=70% height=70%>
+<img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/timeline.png" width=30% height=30%>
 
 To make sure we create the most robust physical interface possible for our purposes we will be relying on the advice of maker lab members so we intend to meet with them before we begin this whole process.
 
