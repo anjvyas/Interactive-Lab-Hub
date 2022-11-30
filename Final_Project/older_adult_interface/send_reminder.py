@@ -46,6 +46,10 @@ while keep_going:
                 time_data = t.split(":")
                 h = time_data[0]
                 m = time_data[1]
+
+                if m[0] == '0':
+                    m = m[1:]
+
                 if str(current_time.hour) == h and str(current_time.minute) == str(m):
                     # for mac testing
                     # os.system(f"say 'Hi there! It's time to take {medicine_name}'")
