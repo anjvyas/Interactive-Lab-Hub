@@ -199,7 +199,9 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 
+This is the code for the receiver: https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%206/part_e_receiver.py
 
+This is the code for the sender: https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Lab%206/part_e_sender.py
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
