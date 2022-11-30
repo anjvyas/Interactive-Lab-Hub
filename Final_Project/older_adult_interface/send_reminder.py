@@ -38,7 +38,7 @@ while True:
 
     if pres_info != None:
         times = pres_info[currentDay]
-        medicine_name = pres_info["name"]
+        medicine_name = pres_info["name"][0]
         if len(times) > 0:
             for t in times:
                 time_data = t.split(":")
@@ -49,8 +49,7 @@ while True:
                     # os.system(f"say 'Hi there! It's time to take {medicine_name}'")
                     # os.system(f"say 'How do you want to consume your pill? Click on a button below'")
                     # # for pi testing
-                    os.system(f"flite -voice slt -t 'Hi there! It is time to take {medicine_name}'")
-                    os.system(f"flite -voice slt -t 'How do you want to consume your pill? Click on a button below'")
+                    os.system(f"flite -voice slt -t 'Hi there, it is time to take {medicine_name}. How do you want to consume your pill? Click on a button below'")
                     time.sleep(60)
     else:
         os.system(f"flite -voice slt -t 'The prescription has not been loaded yet'")
