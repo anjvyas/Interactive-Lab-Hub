@@ -26,7 +26,9 @@ def findDay():
     born = datetime.datetime.strptime(str(datetime.date.today()), '%Y-%m-%d').weekday()
     return (calendar.day_name[born])
 
-while True:
+keep_going = True
+
+while keep_going:
     # get the current day and time
     currentDay = findDay()
     current_time = datetime.datetime.now()
@@ -49,8 +51,10 @@ while True:
                     # os.system(f"say 'Hi there! It's time to take {medicine_name}'")
                     # os.system(f"say 'How do you want to consume your pill? Click on a button below'")
                     # # for pi testing
-                    os.system(f"flite -voice slt -t 'Hi there, it is time to take {medicine_name}. How do you want to consume your pill? Click on a button below'")
-                    time.sleep(60)
+                    os.system(f"flite -voice slt -t 'Hi there, it is time to take {medicine_name}'")
+                    time.sleep(0.2)
+                    os.system(f"flite -voice slt -t 'How do you want to consume your pill? Click on a button below'")
+                    keep_going = False
     else:
         os.system(f"flite -voice slt -t 'The prescription has not been loaded yet'")
 
