@@ -49,7 +49,7 @@ while True:
                     # os.system(f"say 'Hi there! It's time to take {medicine_name}'")
                     # os.system(f"say 'How do you want to consume your pill? Click on a button below'")
                     # # for pi testing
-                    os.system(f"flite -voice slt -t 'Hi there! It's time to take {medicine_name}'")
+                    os.system(f"flite -voice slt -t 'Hi there! It is time to take {medicine_name}'")
                     os.system(f"flite -voice slt -t 'How do you want to consume your pill? Click on a button below'")
                     time.sleep(60)
     else:
