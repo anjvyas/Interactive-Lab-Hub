@@ -89,7 +89,7 @@ while txt_not_detected and not(obj_not_detected):
 
 #Dispensing
 os.system(f"flite -voice slt -t 'How do you want to consume your pill? Click on the buttons below'")
-os.system("python3 cap_test.py")
+os.system("python3 dispenser.py")
 pilldispenser_db = get_database()
 pres_collection = pilldispenser_db['prescriptions']
 pres_info = pres_collection.find_one({"id": 1})
