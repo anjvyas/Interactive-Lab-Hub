@@ -92,6 +92,7 @@ We will try our best to address all the risks mentioned above. However, in case 
 <img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/slide.png" width=70% height=70%>
 
 # Documentation of our design and building process
+If you would prefer to read this as a pdf, you can access it [here](https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Final_Project/report/report.pdf) :)
 
 ## What was our motivation?
 Our idea for the smart pill dispenser was inspired by Aashika’s Product Studio How Might We challenge: “How might we help older people with cognitive deficits to live independently?.”
