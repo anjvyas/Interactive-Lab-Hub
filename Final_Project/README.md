@@ -1,16 +1,16 @@
-## Project Plan
-
 ### Team Members:
 Aashika Perunkolam [ap966]
 Anjali Vyas [av379]
 
-### Big Idea: 
+# Project Plan
+
+## Big Idea: 
 
 Older adults with cognitive deficits often find it difficult to live independently as they require assistance with different tasks of daily living. To enable independent living we are going to focus on one of the most critical tasks of daily living for older adults which is to take their medications on time to prevent further cognitive decline.
 
 We are going to build a smart medicine dispenser that has the following functions:
 
-### Design of our Smart Medicine Dispenser:
+## Design of our Smart Medicine Dispenser:
 
 <img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/design.png" width=70% height=70%>
 
@@ -33,7 +33,7 @@ Once the user approaches the device based on the sound alert, the display screen
 There are three buttons on the device. Each button indicates the types of formulation for the medicine. Button 1 indicates that the pill will be split into two halves across the serration already provided. Button 2 indicates that the pill will be dispensed as a whole, without a change in Formulation. Button 3 indicates that the pill will be dispensed in powdered form [This can only be done for certain pills without enteric coating, so we will have a mechanism to check if the medicine can be powdered or not before crushing it.]
 
 
-### Differentiators:
+## Differentiators:
 
 Despite the presence of smart medicine dispensers in the market, none of them really cater specifically to the needs of older adults with cognitive deficits. Whereas our device caters specifically to older adults with cognitive deficits in the following two ways:
 Reduces cognitive load on the user by eliminate the need of text input:
@@ -47,7 +47,7 @@ If it is not legal the device will provide an error message to the user indicati
 This is a novel feature of our device and has not been implemented before.
 
 
-### Timeline: 
+## Timeline: 
 
 Here is the timeline we intend to follow to get our interactive device ready on time:
 
@@ -56,7 +56,7 @@ Here is the timeline we intend to follow to get our interactive device ready on 
 To make sure we create the most robust physical interface possible for our purposes we will be relying on the advice of maker lab members so we intend to meet with them before we begin this whole process.
 
 
-### Parts Needed: 
+## Parts Needed: 
 
 Raspberry Pi [1]
 Proximity Sensor [1]
@@ -66,7 +66,7 @@ Display Screen [1]
 Buttons [3]
 
 
-### Risks/Contingencies: 
+## Risks/Contingencies: 
 
 There are several risks associated with our project that we will be putting conscious efforts to mitigate:
 
@@ -76,7 +76,7 @@ There are several risks associated with our project that we will be putting cons
 - Older adults who have poor memory might end up trying to crush pills that they should not be crushing. We need to have some security features in place which prevent cases like this from happening (we were envisioning checking some kind of hard coded database which maps each medication to true / false values representing whether it can be crushed or cut).
 - Pills come in all shapes and sizes, we need to make sure that our holding, crushing and cutting capabilities can handle all of these somehow.
 
-### Fall-back plan:
+## Fall-back plan:
 
 We will try our best to address all the risks mentioned above. However, in case we are not able to mitigate all of them, here is our plan for what alternative, simpler approaches we can take:
 
@@ -86,6 +86,6 @@ We will try our best to address all the risks mentioned above. However, in case 
 - We will try to make our device work with just a few pill shapes and sizes as a simple, initial prototype and will mention this limitation upfront.
 
 
-### Slide for in-class presentation:
+## Slide for in-class presentation:
 
 <img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/slide.png" width=70% height=70%>
