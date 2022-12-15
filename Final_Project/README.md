@@ -177,16 +177,15 @@ On our first day of building we just connected all these components to our Raspb
 ### 2 Write out the code
 Next we wrote out the code for our device. We separated it into 3 main components:
 
-1. **The clinician web interface** through which prescriptions can be sent and the database that will be used to store this information (implemented using MongoDB and Flask). The image on the left shows the web interface and the one on the right shows a screenshot from the MongoDB database viewer after the request was submitted.
+- **The clinician web interface** through which prescriptions can be sent and the database that will be used to store this information (implemented using MongoDB and Flask). The image on the left shows the web interface and the one on the right shows a screenshot from the MongoDB database viewer after the request was submitted.
 	
 <img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Final_Project/report/clinician_interface.png" width=70% height=70%>
 
-2. **The OCR code** used to extract the medication name from any pill bottles seen in the camera footage. 
-3. **The device driver code** that will:
-4. 
-a. Keep checking to see if a pill bottle is in front of the proximity sensor → read the name if there is and make sure it is a valid prescription after checking the database. If it is not valid, announce this. If it is, then open the refill section (by making a servo move) so pills can be added to the device.
-b. Keep checking to see if the time for a reminder has come yet. Once it has, then make an announcement and show instructions on the display.
-c. Once the older adult has picked a formulation (sensed through the capacitive sensor), announce a message and trigger the correct servo to dispense the medicine.  
+- **The OCR code** used to extract the medication name from any pill bottles seen in the camera footage. 
+- **The device driver code** that will:
+    - Keep checking to see if a pill bottle is in front of the proximity sensor → read the name if there is and make sure it is a valid prescription after checking the database. If it is not valid, announce this. If it is, then open the refill section (by making a servo move) so pills can be added to the device.
+    - Keep checking to see if the time for a reminder has come yet. Once it has, then make an announcement and show instructions on the display.
+    - Once the older adult has picked a formulation (sensed through the capacitive sensor), announce a message and trigger the correct servo to dispense the medicine.  
 
 To read details on how we implemented each of these components, look at our code archive below!
 
