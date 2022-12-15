@@ -229,6 +229,7 @@ We made use of some thick foam to elevate our dispensing section and folded and 
 We cut a circle in the top of the box and fixed a servo inside of the box while supporting it with some wooden sticks glued to the side. We also glued a circle of the same diameter on the top of the servo’s arm so it could open and close the refilling section. We wanted to incorporate this only to make it easier for users to understand the flow but in reality any pills added here were not connected to our dispensers at all. After some thinking we realized that this aspect would be unnecessary to implement for the purposes of our prototype.
 
 ### 7 Put everything together and add finishing touches
+
 To put everything together we glued all our sensors inside to help them stay in one place throughout, cut out spaces for the wires, buttons, display and camera. We also had to glue the cups to the bottom of the box and glue the bottom of the cups to the purple base.
 
 To make it easier for users to place medicine bottles at a good angle for the camera, we glued a little platform to the side of the box. Next, we also added conducting paper squares in front of the alligator clips to make the buttons look nicer. Lastly, we added labels everywhere to make it as easy as possible for users to know what each component is meant for.
@@ -239,6 +240,7 @@ Here is what our final smart pill dispenser ended up looking like from the front
 <img src="https://github.com/anjvyas/Interactive-Lab-Hub/blob/Fall2022/Final_Project/report/device_front_and_back.png" width=70% height=70%>
 
 ## Archive of all our code 
+
 All the code we used for the smart pill dispenser is in this repository. Below, we explain what the function of each directory and file is:
 
 **[clinician_interface](https://github.com/anjvyas/Interactive-Lab-Hub/tree/Fall2022/Final_Project/clinician_interface)**
@@ -267,6 +269,7 @@ flask run
 This folder contains all the code run for the device on the raspberry pi.
 
 **Main files**
+
 - idd_final.py - this is the file we run to start the medicine dispenser. Here are the steps it follows to enable the functionality:
 
 1. Connect to the proximity sensor and keep checking to see if it has detected anything near it.
@@ -281,10 +284,13 @@ b. If it is not then say that the medicine is not a prescribed medicine.
 - .env - is used to store the MongoDB database password.
 
 **Individual component code (called by the main file)**
+
 *Dispenser*
+
 - dispenser.py - this code controls the 3 servos that dispense pills, it calls (1) oled_split.py and servo_test_split.py, (2) oled_whole.py and servo_test_whole.py or (3) oled_powdered.py and servo_test_powdered.py depending on the value obtained from the capacitive touch sensor.
 
 *OLED display (called by dispenser.py)*
+
 - oled_powdered.py - displays “Powdered” on the OLED display. It is called when the powdered pills are to be dispensed.
 - oled_split.py - displays “Split” on the OLED display. It is called when the powdered pills are to be dispensed.
 - oled_whole.py - displays “Whole” on the OLED display. It is called when the powdered pills are to be dispensed.
@@ -292,14 +298,17 @@ b. If it is not then say that the medicine is not a prescribed medicine.
 oled.py - displays “Vitamin D3” on the OLED display. It is called when the camera detects Vitamin D3 in front of it(we hardcoded this for the demo since our camera detection was a little unreliable in different lighting).
 
 *Servo motors (called by dispenser.py)*
+
 - servo_test_powdered.py - turns the servo attached to the powdered pills dispenser 180 degrees.
 - servo_test_split.py -  turns the servo attached to the split pills dispenser 180 degrees.
 - servo_test_whole.py -  turns the servo attached to the whole pills dispenser 180 degrees.
 
 *Reminders functionality*
+
 - send_reminder.py -  it keeps checking the prescription schedule from the database and compares it with the current time and day to see if it is time for a reminder (in case there is no prescription yet it tells this to the user). When the current time and day matches a reminder’s time and day, it tells the user it’s time to take the medicine and asks them how they would like to consume the pill.
 
 **Test files**
+
 - db_info.py - allows us to test whether our database is working correctly and whether we are able to connect to it correctly.
 - final_project.py - we used this to test the functionality without the reminders and invalid medicine scan check included.
 - ocr_img.py - we used this code to check whether our OpenCV code is able to extract the text Vitamin C from a saved image of the bottle.
@@ -308,11 +317,13 @@ oled.py - displays “Vitamin D3” on the OLED display. It is called when the c
 Servo_test_refill.py - we used this to test the refill servo’s movements
 
 **Images**
+
 - vitc.png - used to test with ocr_img.py above
 - vitd.png - used to test with ocr_vitd_img.py above
 
 
 ## Videos
+
 1. Explaining design of our prototype:
 https://drive.google.com/file/d/1jpKoF1lrQnY7poaw44QJb4XvMb8kGM_t/view?usp=sharing
 
@@ -323,6 +334,7 @@ https://drive.google.com/file/d/1v0jjibUjsBOFHxQcnqKqIgOH1CnS8aW3/view?usp=shari
 https://drive.google.com/file/d/1nEZ-vBRIr_lXyqsd-VRARpoGLzrdOVp-/view?usp=sharing 
 
 ## Reflections
+
 We learned a tremendous amount working on this project! In particular, the dispensing portion was quite challenging for us and baffled us at times. When it finally ended up working we were very happy! We learned that being patient while consistently trying new ideas after failing helps a lot with eventually succeeding.
 
 Another valuable takeaway for us was that talking to others and consulting with them can really help you come up with new ways of looking at a problem and break out of being stuck. We were talking to someone while working in the maker lab and she randomly mentioned that she also worked on building a dispenser-like component for one of her projects. She explained to us how she got it to work with her slightly different object and this is what helped us get to our slanted tube idea! 
@@ -332,6 +344,7 @@ In the beginning of the project we were very ambitious and excited to implement 
 Lastly, the biggest learning for us was just how much work needs to go into building tangible systems for people. There are so many edge cases you need to think about when trying to make sure something you build can be truly of value and safe for people to use, especially given the unpredictable ways in which they may end up interacting with your device. The way you anticipate your components to work also often doesn’t end up being how they actually work. For instance - we expected our webcam to work more smoothly than it actually did, there was significant lag and sensitivity to light conditions. The most important thing given this reality and the unpredictability that comes with building is being adaptable and eager to find workarounds!
 
 ## Acknowledgements
+
 This project was an amazing learning experience and adventure for us! We are extremely grateful for the support of the instructors throughout this process - Professor Ju, Stacey and Alexandra, thank you very much for your patience and help.
 
 We also could not have done this without the support of Niti and Sebastian at the maker lab! We learned a lot from them, got great ideas from them and really appreciated them letting us use the maker lab for our project. It is truly such an exciting place to be if you love to build and tinker!
